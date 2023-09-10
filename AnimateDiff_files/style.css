@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   background-color: #fff;
 }
+
 .content {
   width: 1000px;
   padding: 25px 50px;
@@ -13,7 +14,7 @@ body {
   background-color: white;
   box-shadow: 0px 0px 10px #999;
   border-radius: 15px;
-  font-family: "Google Sans";
+  font-family: 'Google Sans', sans-serif;
 }
 .contentblock {
   width: 950px;

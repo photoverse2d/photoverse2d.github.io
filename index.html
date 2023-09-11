@@ -48,25 +48,20 @@
 
   <font size="+1">
     <p style="text-align: center;" class="serif">
-      <a href="https://arxiv.org/abs/2307.04725" target="_blank" style="font-weight: bold;">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;  
-      <a href="https://photoverse2d.github.io/" target="_blank" style="font-weight: bold;">[Code (Coming soon)]</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://photoverse2d.github.io/" target="_blank" style="font-weight: bold;">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;  
+      <a href="https://photoverse2d.github.io/" target="_blank" style="font-weight: bold;">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="#bibtex" style="font-weight: bold;">[BibTeX]</a>
     </p><br>
   </font>
 <!-- todo arxiv -->
 
-<img class="summary-img" src="figs/res1-v3.png" style="width:90%;"> <br>
-</div>
+<p class="serif" style="text-align: center; font-weight: bold; font-size: 1.2em">
+  ✅ only <span style="color: red; font-weight: bold">one</span> facial photograph.&nbsp;&nbsp;&nbsp;&nbsp;
+  ✅ <b><span style="color: red; font-weight: bold">no</span> test-time tuning.&nbsp;&nbsp;&nbsp;&nbsp;</b>
+  ✅ <b>demonstrates <span style="color: red; font-weight: bold">exceptional ID preservation and editability.</span>&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</p>
 
-<div class="content">
-  <p style="text-align:left; font-size: 2em; font-weight: bold" class="serif">Methodology</p>
-  <p style="font-size: 1.2em" class="serif">
-    Personalized text-to-image generation has emerged as a powerful and sought-after tool, empowering users to create customized images based on their specific concepts and prompts. However, existing approaches to personalization encounter multiple challenges, including long tuning times, large storage requirements, the necessity for multiple input images per identity, and limitations in preserving identity and editability.<br><br>
-    
-    To address these obstacles, we present PhotoVerse, an innovative methodology that incorporates a dual-branch conditioning mechanism in both text and image domains, providing effective control over the image generation process. 
-    Furthermore, we introduce facial identity loss as a novel component to enhance the preservation of identity during training. Remarkably, our proposed PhotoVerse eliminates the need for test time tuning and relies solely on a single facial photo of the target identity, significantly reducing the resource cost associated with image generation. After a single training phase, our approach enables generating high-quality images within only a few seconds. Moreover, our method can produce diverse images that encompass various scenes and styles. 
-  </p>
-  <img class="summary-img" src="figs/framework.png" style="width:50%;"> <br>
+<!-- <img class="summary-img" src="figs/res1-v3.png" style="width:90%;"> <br> -->
 </div>
 
 
@@ -78,6 +73,18 @@
    <img class="summary-img" src="figs/results/supp-res1.png" style="width:90%;"> <br>
    <img class="summary-img" src="figs/results/supp-res2.png" style="width:90%;"> <br>
    <img class="summary-img" src="figs/results/supp-res3.png" style="width:90%;"> <br>
+</div>
+
+
+<div class="content">
+  <p style="text-align:left; font-size: 2em; font-weight: bold" class="serif">Methodology</p>
+  <p style="font-size: 1.2em" class="serif">
+    Personalized text-to-image generation has emerged as a powerful and sought-after tool, empowering users to create customized images based on their specific concepts and prompts. However, existing approaches to personalization encounter multiple challenges, including long tuning times, large storage requirements, the necessity for multiple input images per identity, and limitations in preserving identity and editability.<br><br>
+    
+    To address these obstacles, we present PhotoVerse, an innovative methodology that incorporates a dual-branch conditioning mechanism in both text and image domains, providing effective control over the image generation process. 
+    Furthermore, we introduce facial identity loss as a novel component to enhance the preservation of identity during training. Remarkably, our proposed PhotoVerse eliminates the need for test time tuning and relies solely on a single facial photo of the target identity, significantly reducing the resource cost associated with image generation. After a single training phase, our approach enables generating high-quality images within only a few seconds. Moreover, our method can produce diverse images that encompass various scenes and styles. 
+  </p>
+  <img class="summary-img" src="figs/framework.png" style="width:50%;"> <br>
 </div>
 
 
